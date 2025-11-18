@@ -6,7 +6,7 @@ export default function ImageDisplay() {
 
   const imageSrc = currentGesture
     ? gestureToImage[currentGesture]
-    : "/images/ahhh.png";
+    : "/MonkeyFacer/images/ahhh.png";
   return (
     <div className="w-[640px] h-[480px] shrink-0">
       <img

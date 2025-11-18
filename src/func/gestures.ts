@@ -2,9 +2,9 @@ type GestureType = "smile" | "serious" | "eureca";
 
 import type { Results } from "@mediapipe/holistic";
 export const gestureToImage: Record<GestureType, string> = {
-  smile: "/images/smile.png",
-  serious: "/images/xd.png",
-  eureca: "/images/eureca.png",
+  smile: "/MonkeyFacer/images/smile.png",
+  serious: "/MonkeyFacer/images/xd.png",
+  eureca: "/MonkeyFacer/images/eureca.png",
 };
 
 const SMILE_THRESHOLD = 0.35;
