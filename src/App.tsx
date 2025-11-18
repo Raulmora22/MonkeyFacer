@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div className="flex flex-col justify-center items-center gap-6 h-screen bg-gray-100">
       <h1 className="text-3xl font-bold text-gray-800">
-        Make by{" "}
+        Made by{" "}
         <a
           href="https://github.com/Raulmora22"
           target="_blank"
